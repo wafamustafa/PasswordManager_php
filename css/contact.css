@@ -1,0 +1,67 @@
+.content p {
+    font-size: 1em;
+}
+.content h2 {
+    font-size: 2.5em;
+}
+#contactForm {
+    display: flex;
+    font-size: 1em;
+    font-weight: 500;
+}
+#name,
+#email,
+#first_name,
+#last_name,
+#timestamp,
+#user,
+#message1 {
+    height: 3em;
+}
+#name,
+#email,
+#message1,
+#first_name,
+#last_name,
+#timestamp,
+#user {
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+    border-radius: 13px;
+}
+#email,
+#message1,
+#first_name,
+#last_name,
+#timestamp,
+#user {
+    margin: 0 auto;
+}
+
+#submitBtn {
+    margin: 0.9em 0 1.5em 6em;
+    width: 5em;
+    height: 2em;
+    font-size: 0.9em;
+    font-weight:500;
+    border-radius: 10px;
+    background-color: #ff980c;
+}
+#table {
+    border: inset;
+    padding: 0;
+}
+
+@media screen and (max-width: 530px) {
+    #contactInputDiv,
+    #contactInputDiv1,
+    #contactInputDiv2,
+    #contactInputDiv3 {
+        flex-direction: column;
+        margin: 1em 0;
+        text-align: justify;
+        width: 100%;
+    }
+}

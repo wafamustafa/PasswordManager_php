@@ -1,0 +1,62 @@
+/***** FAQ STYLING *****/
+#faqh2{
+  font-size: 50px;
+}
+
+.cBox{
+  font-size: 32px;
+  font-weight: bold;
+  color: #301930;
+  list-style: none;
+  height: auto !important;
+  width: auto !important;
+}
+
+.questionanswersection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faqanswers{
+  font-size: 22px;
+  list-style: none;
+  width: auto;
+  font-weight: lighter;
+}
+
+.backLink{
+  border-radius: 10px;
+  margin: .5em;
+  padding: .5em 1em;
+  font-size: .8em;
+  font-weight:500;
+  height: unset;
+  background-color: var( --orange );
+  color: black !important;
+  text-decoration: none;
+}
+
+.formDiv {
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formDiv2 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+
+#deleteFAQ{
+  margin-right: 35vw;
+}
+
+#updateFAQ{
+  margin-left: 30vw;
+}
+
+

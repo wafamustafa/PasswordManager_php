@@ -1,0 +1,171 @@
+/*File created by Wafa 04/2021*/
+.content h2{
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.cBox2{
+    display: flex;
+    align-items: center;
+    margin-left: 11em;
+}
+
+.cBox{
+    padding: 0.5em;
+    font-weight: normal;
+}
+
+.cBox img{
+    height: 25px;
+}
+
+.cBox h5{
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+.content h4{
+    font-size: 2em;
+}
+
+.cBox a {
+    text-decoration: none;
+}
+  
+.cBox a:link {
+    color: var( --lightGrey );
+}
+  
+.cBox a:visited {
+    color: var( --lightGrey );
+}
+  
+.cBox a:hover {
+    color: var( --darkPurple )  
+}
+
+form{
+    display: inline-block;
+    width: 200px;
+    margin-block-end: 0;
+    margin-right: 0;
+}
+
+.formAdd {
+    border-radius: 10px;
+    margin: .5em;
+    padding: .5em 1em;
+    font-size: .8em;
+    font-weight: 500;
+    height: unset;
+    background-color: var( --lightGrey );
+}
+
+.formEdit {
+    border-radius: 10px;
+    margin: .5em;
+    padding: .5em 1em;
+    font-size: .8em;
+    font-weight: 500;
+    height: unset;
+    background-color: var( --lightGrey );
+}
+
+.formDelete {
+    border-radius: 10px;
+    margin: .5em;
+    padding: .5em 1em;
+    font-size: .8em;
+    font-weight: 500;
+    height: unset;
+    background-color: var( --lightGrey );
+}
+
+.submitBtn {
+    border-radius: 10px;
+    margin: .5em;
+    padding: .5em 1em;
+    font-size: .8em;
+    font-weight: 500;
+    height: unset;
+    background-color: var( --lightGrey );
+}
+
+
+/***** Tablet Landscape View ******/
+@media screen and (max-width: 957px) {
+
+    .content h2{
+        font-size: 2.5em;
+        margin-bottom: 0;
+    }
+    
+    .content h3{
+        font-size: 2em;
+        margin-top: 0;
+    }
+
+    .content h4{
+        font-size: 1.5em;
+    }
+
+    .cBox2 {
+        margin-left: 6em;
+    }
+
+}
+  
+  /***** Tablet Portrait View ******/
+  @media screen and (max-width: 700px) {
+  
+    .content h2{
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    
+    .content h3{
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+
+    .content h4{
+        font-size: 1em;
+    }
+
+    .content p{
+        font-size: 1em;
+    }
+
+    .cBox2 {
+        margin-left: 7.5em;
+    }
+
+}
+  
+  /***** Phone Landscape View ******/
+  @media screen and (max-width: 500px) {
+  
+    .content h2{
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    
+    .content h3{
+        font-size: 1em;
+        margin-top: 0;
+    }
+
+    .content h4{
+        font-size: 0.7em;
+    }
+
+    .content p{
+        font-size: 0.7em;
+    }
+    .cBox2 {
+        margin-left: 2em;
+    }
+
+}

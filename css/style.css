@@ -1,0 +1,413 @@
+:root {
+
+  /* Font Families */
+  --generalFont: 'source Sans Pro', sans-serif;
+  --headerFont: 'Roboto Slab', serif;;
+
+  /* Colours */
+  --lightGrey: #e3e0e3;
+  --darkPurple: #301930;
+  --mediumPurple: #562f56;
+  --orange: #ff980c;
+} 
+
+html {
+  box-sizing:border-box;
+}
+
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+}
+
+h1, h2, h3, h4 {
+  font-family: var( --headerFont );
+  color: var( --lightGrey );
+}
+
+body {
+  max-width: 1200px;
+  max-height: 800px;
+  margin: auto;
+  font-family: var( --generalFont ); 
+}
+
+.banner {
+  background-color: var( --darkPurple );
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 5.5em;
+  padding-right: .5em;
+}
+
+.logo {
+  padding: 1em 0 1em 1em;
+}
+
+.logo img{
+  margin-top: 3.3em;
+  height: 100px;
+}
+
+nav {
+  background-color: var( --darkPurple );
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  font-family: var(--generalFont);
+  font-size: 1.5em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link {
+  color: var( --lightGrey );
+}
+
+nav a:visited {
+  color: var( --lightGrey );
+}
+
+nav a:hover {
+  color: var( --orange )  
+}
+
+header nav ul {
+  align-items: stretch;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.borderDiv {
+  background-color: var( --orange );
+  height: 5px;
+}
+
+
+/*****Main Content*****/
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.accountNav {
+  background-color: var( --darkPurple );
+}
+
+.accountNav ul {
+  flex-direction: column;
+  margin: 0 1.5em;
+  padding: 0;
+}
+
+.accountNav li {
+  flex-direction: column;
+  margin: 0 0.5em;
+  padding: 0.4em 0;
+}
+
+.content {
+  color: var(--lightGrey);
+  background-color: var(--mediumPurple);
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: center;
+  padding: 0 1em;
+  width: 100%;
+}
+
+/*****Orange boxes*****/
+.contentBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cBox{
+  border-radius: 15px;
+  width: 17em;
+  opacity: 0.9; /*changed the opacity*/
+  background-color: var(--orange);
+  margin: 1em;
+}
+
+/*****Footer*****/
+footer {
+  background-color: var(--darkPurple);
+}
+
+.footerNav ul {
+  margin: 0;
+  padding-inline-start: 0;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+
+
+/***** Forms *****/
+.formDiv {
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formDiv p {
+  font-weight:500;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em auto;
+  text-align: right;
+}
+
+.inputDiv label {
+  font-size: 1em;
+  font-weight:500;
+  vertical-align: middle;
+  margin: .5em;
+  width: 250px;
+}
+
+.inputDiv input {
+  height: 3.5em;
+  margin: auto .5em;
+}
+
+.inputDiv input[type=text] {
+  border-radius: 10px;
+  padding: .5em;
+}
+
+.inputDiv input[type=email] {
+  border-radius: 10px;
+  padding: .5em;
+}
+
+.inputDiv input[type=password] {
+  border-radius: 10px;
+  padding: .5em;
+}
+
+.inputDiv input[type=submit] {
+  border-radius: 10px;
+  margin: .5em;
+  padding: .5em 1em;
+  font-size: .8em;
+  font-weight:500;
+  height: unset;
+  background-color: var( --orange );
+}
+
+.showHideSpan {
+  padding-top: 1em;
+  min-width: 50px;
+}
+
+.linkAsButton {
+  border-radius: 10px;
+  margin: .5em;
+  padding: .5em 1em;
+  font-size: 1.2em;
+  font-weight:500;
+  background-color: var( --lightGrey );
+}
+
+.inputDiv input[type="file"] {
+    position: fixed;
+    right: 100%;
+    bottom: 100%;
+}
+
+.fileInputLabel {
+  cursor: pointer;
+  color: var(--darkPurple);
+  border-radius: 10px;
+  margin: 8em .5em;
+  padding: .5em 1em;
+  font-size: 1.2em;
+  font-weight:500;
+  background-color: var( --lightGrey );
+}
+
+.fileNameDiv {
+  margin: 2em auto;
+}
+
+.errorDiv {
+  font-size: .75em;
+}
+
+.basicTable {
+  color: var( --lightGrey );
+}
+
+.basicTable form {
+  margin-block-end: unset;
+}
+
+.basicTable td {
+  border-top: 1px solid var( --darkPurple   );
+  padding: 0 1.2em;
+  vertical-align: middle;
+}
+
+.basicTable .formTd {
+  padding: 0;
+}
+
+.basicTable th {
+  border-top: 1px solid var( --darkPurple   );
+    font-size: 1.2em;
+}
+
+.basicTable tr {
+  font-size: 1em;
+}
+
+.basicTable .inputDiv {
+  margin: 0 auto;
+}
+
+.basicTable input {
+  margin-bottom: 0;
+}
+
+
+
+/***** Tablet Landscape View ******/
+@media screen and (max-width: 957px) {
+
+  .siteName {
+    font-size: 4em;
+  }
+
+  .logo img{
+    margin-top: 3.1em;
+    height: 50px;
+  }
+}
+
+/***** Tablet Portrait View ******/
+@media screen and (max-width: 700px) {
+
+  .content {
+    font-size: 1em;
+  }
+
+  .siteName {
+    font-size: 3em;
+  }
+
+  .logo img{
+    margin-top: 2.1em;
+    height: 35px;
+  }
+
+  .accountNav ul {
+    margin: 0 0.7em;
+    font-size: 0.8em;
+  }
+}
+
+/***** Phone Landscape View ******/
+@media screen and (max-width: 500px) {
+
+  .siteName {
+    font-size: 2em;
+  }
+
+  .logo img{
+    margin-top: 1em;
+    height: 25px;
+  }
+
+  nav li {
+    font-size: 1.2em;
+  }
+
+
+  .accountNav ul {
+    margin: 0 0.7em;
+    font-size: 0.8em;
+  }
+}
+
+/***** Phone Portrait View ******/
+@media screen and (max-width: 400px) {
+
+  .siteName {
+    font-size: 2em;
+  }
+
+  .logo img{
+    margin-top: 1em;
+    height: 25px;
+  }
+
+  nav li {
+    font-size: 1.2em;
+  }
+
+
+  .mainDiv {
+    flex-direction: column;
+  }
+
+  .accountNav ul {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  .accountNav li {
+    padding: 0;
+  }
+}
+
+/***** Small Phone Portrait View ******/
+@media screen and (max-width: 345px) {
+
+  .siteName {
+    font-size: 1.5em;
+  }
+
+  .logo img{
+    margin-top: 0.5em;
+    height: 20px;
+  }
+
+  nav li {
+    font-size: 1em;
+  }
+
+  .accountNav ul {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+}

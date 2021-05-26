@@ -1,0 +1,28 @@
+/* File created by Barbara Cam 2021/04. */
+
+.basicTable th {    
+    font-size: 0.95em;
+    /* color: var(--orange);                */
+}
+tr {
+    color: var(--lightGrey);
+}
+tbody {
+    font-size: 0.8em;
+}
+.phDelete {
+    /* background-color: var(--orange);    
+    border-radius: 5px;
+    width: 5em;
+    font-weight: bold;
+    border: var(--lightGrey) solid 0.03em;  */
+    margin: .5em;
+    padding: .45em 1em;
+    border-radius: 10px;
+    font-weight:500; 
+    font-size: .78em;
+    color: black;
+    background-color: var( --orange );
+    text-decoration: none;
+    border: var(--lightGrey) solid 0.03em;
+}

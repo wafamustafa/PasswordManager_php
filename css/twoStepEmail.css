@@ -1,0 +1,19 @@
+.inputDiv input[type=submit] {
+    border-radius: 10px;
+    margin: .5em;
+    padding: .4em .8em;
+    font-size: .9em;
+    font-weight:500;
+    background-color: var( --orange );
+}
+.inputDiv{
+    margin-right: 8vw;
+}
+
+.inputDiv input[type=submit]{
+    margin-left: 11vw;
+}
+
+.headings{
+    margin-left: 2vw;
+}

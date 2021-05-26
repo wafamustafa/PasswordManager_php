@@ -1,0 +1,130 @@
+/*File created by Wafa 03/2021*/
+.content h2{
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.content h3{
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.content p{
+    font-size: 1.5em;
+}
+
+.cBox{
+    padding: 0.5em;
+    font-weight: normal;
+}
+
+.cBox img{
+    height: 50px;
+}
+
+.cBox h5{
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+#editAboutus {
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding: .5em;
+    font-size: .8em;
+    font-weight:500;
+    height: unset;
+    background-color: var( --orange );
+}
+
+#addAboutus {
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding: .5em;
+    font-size: .8em;
+    font-weight:500;
+    height: unset;
+    background-color: var( --orange );
+}
+
+.spacer {
+    margin-top:1em;
+}
+
+/***** Tablet Landscape View ******/
+@media screen and (max-width: 957px) {
+
+    .content h2{
+        font-size: 2.5em;
+        margin-bottom: 0;
+    }
+    
+    .content h3{
+        font-size: 2em;
+        margin-top: 0;
+    }
+
+    .content h4{
+        font-size: 1.5em;
+    }
+
+    .cBox{
+        margin-left: 20%;
+    }
+    
+
+}
+  
+  /***** Tablet Portrait View ******/
+  @media screen and (max-width: 700px) {
+  
+    .content h2{
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    
+    .content h3{
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+
+    .content h4{
+        font-size: 1em;
+    }
+
+    .content p{
+        font-size: 1em;
+    }
+    .cBox{
+        margin-left: 25%;
+    }
+
+}
+  
+  /***** Phone Landscape View ******/
+  @media screen and (max-width: 500px) {
+  
+    .content h2{
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    
+    .content h3{
+        font-size: 1em;
+        margin-top: 0;
+    }
+
+    .content h4{
+        font-size: 0.7em;
+    }
+
+    .content p{
+        font-size: 0.7em;
+    }
+    .cBox{
+        margin-left: 12%;
+    }
+
+}

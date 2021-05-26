@@ -1,0 +1,17 @@
+/* File created by Barbara Cam 2021/04. */
+
+#optionDiv{    
+    margin: 60px;    
+}
+.options {
+    padding: 20px;  
+}
+.options a {
+    text-decoration: none;
+    background-color: var(--orange);
+    border-radius: 10px;
+    font-weight:500; 
+    font-size: 1em;
+    color: black;  
+    border: var(--lightGrey) solid 0.03em; 
+}

@@ -1,0 +1,69 @@
+/* File created by Barbara Cam 2021/03. */
+
+.sqa {
+    color: var(--orange);
+    background-color: var(--mediumPurple);
+    border-radius: 8px;
+    width: 6.5em;
+    font-weight: bold;
+}
+.formDiv {
+    margin: 2em auto;    
+} 
+thead {
+    padding: 2em 0em; 
+}
+.basicTable th {
+    /* color: var(--orange);  */
+    padding: auto;
+    font-size: 1em;
+} 
+.inputDiv {
+    margin-right: 280px;
+}
+tr {
+    color: var(--lightGrey);
+    font-size: 1.2em;      
+}
+
+.backLink, #btnAddRecovery {
+    border-radius: 10px;
+    font-weight:500; 
+    font-size: .8em;
+    color: black;
+    background-color: var( --orange );
+    text-decoration: none;
+    border: var(--lightGrey) solid 0.03em;   
+  }
+  .backLink {  
+    margin: .5em;
+    padding: .45em 1em; 
+    text-decoration: none;
+  }
+  #btnAddRecovery {
+    margin-left: 458px;
+    padding: .45em 1.81em;    
+  }
+  #addDiv {
+    margin-top: 25px;
+  } 
+
+  /* Update and Add */
+
+legend, .inputDiv {
+    font-family: var(--generalFont);    
+    font-size: 0.95em;
+    font-weight:500;      
+}
+legend {
+  margin: .5em 0; 
+}
+select {
+    border-radius: 8em;
+    height: 2.5em;
+    background-color: var(--orange);
+    color: var(--darkPurple);
+    font-weight: bold;
+    font-size: .60em;    
+}
+ 

@@ -1,0 +1,19 @@
+p {
+  font-size: 1.1em;
+  padding-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:link {
+  color: var( --orange );
+}
+
+a:hover {
+  color: var( --lightGrey );
+}
+
+

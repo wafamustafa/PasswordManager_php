@@ -1,0 +1,81 @@
+h2{
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 1.4em;
+    margin-top: 0;
+}
+p {
+    font-size: 1em;
+    font-style: italic;
+}
+.cBox{
+    padding: 0.5em;
+    font-weight: normal;
+    height: fit-content;
+}
+
+img{
+    height: 7.5em;
+}
+
+.backLink {  
+    margin: .5em;
+    padding: .45em 1em; 
+    text-decoration: none;
+  }
+
+/***** Tablet Landscape View ******/
+@media screen and (max-width: 957px) {
+
+    h2{
+        font-size: 2.5em;
+        margin-bottom: 0;
+    }
+    
+    h3{
+        font-size: 2em;
+        margin-top: 0;
+    }
+
+}
+  
+  /***** Tablet Portrait View ******/
+  @media screen and (max-width: 700px) {
+  
+     h2{
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    
+     h3{
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+
+     p{
+        font-size: 1em;
+    }
+
+}
+  
+  /***** Phone Landscape View ******/
+  @media screen and (max-width: 500px) {
+  
+     h2{
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    
+     h3{
+        font-size: 1em;
+        margin-top: 0;
+    }
+
+     p{
+        font-size: 0.7em;
+    }
+
+}

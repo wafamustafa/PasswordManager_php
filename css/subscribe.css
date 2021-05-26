@@ -1,0 +1,45 @@
+/* File created by Barbara Cam 2021/04. */
+fieldset {
+    border: 1px solid var( --orange ) ;
+    border-radius: 8px;
+    box-shadow: 0 0 10px var( --orange ) ;
+    padding-bottom: 20px;
+}
+ legend {
+    font-size: 1.2em;
+    font-weight: 500;  
+}
+.inputDiv {
+    display: inline-block;
+    text-align: center;
+    margin: 1em auto;  
+}
+.basicTable th {     
+    font-size: 1em;
+    /* color: var(--orange);  */
+} 
+.backLink, #btnAddSubscriber {
+    border-radius: 10px;
+    font-weight:500; 
+    font-size: .8em;
+    color: black;
+    background-color: var( --orange );
+    text-decoration: none;
+    border: var(--lightGrey) solid 0.03em;   
+}
+.backLink {  
+    margin: .5em;
+    padding: .45em 1em; 
+    text-decoration: none;
+}
+#btnAddSubscriber {
+    margin-left: 420px;
+    padding: .45em 1.81em;   
+}
+.bt {
+    padding-top: 15px;
+}
+#addDiv {
+    margin-top: 15px;
+} 
+

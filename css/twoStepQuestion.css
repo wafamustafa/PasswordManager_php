@@ -1,0 +1,33 @@
+.inputDiv input[type=submit] {
+    border-radius: 10px;
+    margin: .5em;
+    padding: .4em .8em;
+    font-size: .9em;
+    font-weight:500;
+    background-color: var( --orange );    
+}
+#getInfo {
+    display: block;
+    text-align: center;    
+}
+
+#getInfo div {
+    padding: 10px;
+}
+.status {
+    color: var(--orange);
+    font-family: var( --headerFont );    
+    font-weight: bold;
+    padding-top: 80px;
+}
+.status h3{    
+    font-size: 1em;    
+    padding-bottom: 50px;
+}
+
+.status span {
+    font-size: 2.75em;     
+}
+
+
+

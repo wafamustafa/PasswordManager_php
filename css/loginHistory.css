@@ -1,0 +1,19 @@
+#history {
+    width: 92%;
+    background-color: var(--darkPurple);
+    border-radius: 8px;
+    color: white;
+    font-size: inherit;
+    padding-bottom: 1em;
+}
+td {
+    font-weight: 400;
+    padding: 0.7em 0;
+}
+.tableHead {
+    padding: 1em 0;
+    font-size: 1em;
+}
+.title {
+    font-size: 2em;
+}
